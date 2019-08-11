@@ -1,14 +1,7 @@
 <section class="page-header">
   <h1 class="project-name">{{ site.title }}</h1>
   <h2 class="project-tagline">{{ site.tagline }}</h2>
-  <a href="#" class="btn">View on GitHub</a>
-  <a href="#" class="btn">Download .zip</a>
-  <a href="#" class="btn">Download .tar.gz</a>
-  <ul>
-    {\% for category in site.categories %\}
-    <li>
-        <a href="/categories/{\{ category | first }\}/" title="view all posts">{\{ category | first }\} {\{ category | last | size }\}</a>
-    </li>
-    {\% endfor %\}
-  </ul>
+  <a href="{% link categories/categories.html %}" class="btn">目录</a>
+  <a href="{% link categories/category_java.html %}" class="btn">Java</a>
+  <a href="{% link categories/category_rocketmq.html %}" class="btn">RocketMQ</a>
 </section>

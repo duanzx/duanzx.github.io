@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "使用github pages 构建jekyll blog !"
+categories: [Java,RocketMQ]
 ---
 这是我的第一篇博客
 
