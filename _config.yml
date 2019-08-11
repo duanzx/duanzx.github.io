@@ -5,7 +5,7 @@ baseurl:      ""
 paginate:     1
 locale:       "en"
 
-# About/contact
+# About/contact , 做成我的简历首页
 author:
   name:       duanzx
   url:        https://duanzx.github.io
