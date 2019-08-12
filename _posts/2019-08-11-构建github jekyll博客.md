@@ -130,7 +130,7 @@ categories: [jekyll]
 * 浏览器地址栏输入：localhost:4000,查看博客首页
 
 <div style="display:flex;align-items:center;justify-content:center;">
-    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_017-1.png" width="800" height="610" />
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_020.png" width="800" height="610" />
 </div>
 
 * 至此，一个本地博客就完成了！。
