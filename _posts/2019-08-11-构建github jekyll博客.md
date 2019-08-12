@@ -21,7 +21,14 @@ categories: [jekyll]
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_001.png" width="900" height="350" />
 </div>
 
-> 3. 为你的Github Pages 选择一个主题。找到你的仓库 xxx.github.io 点击settings标签页，在Github
+> 3. 为你的Github Pages 选择一个主题。找到你的仓库 xxx.github.io 点击settings标签页，在GitHub Pages下点击 Choose a theme选择一个博客样式主题 
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_002.png" width="750" height="500" />
+</div>
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_003.png" width="950" height="500" />
+</div>
 
 
 3 Simple steps to setup Jekyll Categories and Tags
