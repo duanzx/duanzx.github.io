@@ -90,13 +90,13 @@ categories: [jekyll]
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_014.png" width="850" height="600" />
 </div>
 <div style="display:flex;align-items:center;justify-content:center;">
-    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_014.png" width="850" height="320" />
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_015.png" width="850" height="320" />
 </div>
 
-* jekyll ruby安装完成后，要修改RubyGems的镜像为[https://gems.ruby-china.com/](https://gems.ruby-china.com/),
+* jekyll bundler安装完成后，要修改RubyGems的镜像为[https://gems.ruby-china.com/](https://gems.ruby-china.com/),
 
 <div style="display:flex;align-items:center;justify-content:center;">
-    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_015.png" width="800" height="450" />
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_010.png" width="800" height="450" />
 </div>
 
 *替换rubygems的源，输入命令 gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ 和 gem sources -l
