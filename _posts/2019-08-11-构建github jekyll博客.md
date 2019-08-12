@@ -18,7 +18,7 @@ categories: [jekyll]
 > 2. 创建你的Github仓库，并将仓库名称命名为 xxx.github.io , xxx指的是你的github用户名
 
 <div style="display:flex;align-items:center;justify-content:center;">
-    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_001.png" style="width:100%;height:100%;"  alt="" />
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_001.png" width="900" height="350" />
 </div>
 
 > 3. 为你的Github Pages 选择一个主题。找到你的仓库 xxx.github.io 点击settings标签页，在Github
