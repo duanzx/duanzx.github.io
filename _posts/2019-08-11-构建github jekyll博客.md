@@ -9,14 +9,16 @@ categories: [jekyll]
 
 * 什么是Jekyll?
 > 这是来自[Jekyll中文网](http://jekyllcn.com)的定义：可以将纯文本转换为静态博客网站。
+
 * 什么是Github Pages?
 > [GitHub Pages](https://pages.github.com)基于Jekyll构建，你可以轻而易举地在GitHub上免费发布网站--[自定义域名](https://help.github.com/en/articles/about-supported-custom-domains)等等。
-1. 构建你的GitHub Pages
+
+* 构建你的GitHub Pages
 > 1. 首先你需要到GitHub注册账户，注册成功后，登录GitHub网站。
 > 2. 创建你的Github仓库，并将仓库名称命名为 xxx.github.io , xxx指的是你的github用户名
 
-<div>
-    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_001.png" style="width:400px;height:400px;"  alt="" />
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_001.png" style="width:100%;height:100%;"  alt="" />
 </div>
 
 > 3. 为你的Github Pages 选择一个主题。找到你的仓库 xxx.github.io 点击settings标签页，在Github
