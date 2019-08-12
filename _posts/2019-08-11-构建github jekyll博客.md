@@ -66,7 +66,75 @@ categories: [jekyll]
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_009.png" width="500" height="400" />
 </div>
 
-* 安装组件的时间比较长~，需要耐心等待
+* 安装组件的时间比较长~，请耐心等待~。安装完成后，命令行里会询问是否所有的组件都已经成功安装了，此时直接回车即可。
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_012.png" width="600" height="500" />
+</div>
+
+* 在win10搜索框里输入PowerShell,打开PowerShell命令窗口。因为PowerShell里可以使用linux命令，相对比较方便
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_011.png" width="600" height="600" />
+</div>
+
+* 首先确认Ruby是否安装成功，输入命令ruby -v	。然后再确认一下ruby gem的版本,输入命令 gem -v
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_013.png" width="800" height="150" />
+</div>
+
+* 使用gem安装jekyll和bundler , 输入命令 gem install jekyll bundler 。你也可以分别执行命令 gem install jekyll 和 gem install bundler
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_014.png" width="850" height="600" />
+</div>
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_014.png" width="850" height="320" />
+</div>
+
+* jekyll ruby安装完成后，要修改RubyGems的镜像为[https://gems.ruby-china.com/](https://gems.ruby-china.com/),
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_015.png" width="800" height="450" />
+</div>
+
+*替换rubygems的源，输入命令 gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ 和 gem sources -l
+
+* 用 Bundler 的 Gem 源代码镜像命令，输入命令： bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_016.png" width="860" height="480" />
+</div>
+
+* 在这些操作都完成后，我们就可以尝试着用jekyll先在本地生成一个简单的博客网站了，cd到你要创建的博客项目所在文件夹。输入命令： jekyll new myblog 
+
+* 由于在jeky new命令中，执行bundle install的时候会比对bundle版本号，需要耐心等待几十秒
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_017.png" width="850" height="400" />
+</div>
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_017-1.png" width="850" height="300" />
+</div>
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_018.png" width="750" height="260" />
+</div>
+
+* 在浏览器上查看博客，myblog文件夹下输入命令:bundle exec jekyll serve
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_019.png" width="845" height="200" />
+</div>
+
+* 浏览器地址栏输入：localhost:4000,查看博客首页
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_017-1.png" width="800" height="610" />
+</div>
+
+* 至此，一个本地博客就完成了！。
+
 
 3 Simple steps to setup Jekyll Categories and Tags
 
