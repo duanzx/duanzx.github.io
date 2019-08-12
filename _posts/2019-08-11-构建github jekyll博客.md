@@ -18,14 +18,14 @@ categories: [jekyll]
 
 ### 构建你的GitHub Pages
 
-1. 首先你需要到GitHub注册账户，注册成功后，登录GitHub网站。
-2. 创建你的Github仓库，并将仓库名称命名为 xxx.github.io , xxx指的是你的github用户名
+**1.** 首先你需要到GitHub注册账户，注册成功后，登录GitHub网站。
+**2.** 创建你的Github仓库，并将仓库名称命名为 xxx.github.io , xxx指的是你的github用户名
 
 <div style="display:flex;align-items:center;justify-content:center;">
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_001.png" width="900" height="350" />
 </div>
 
-3. 为你的Github Pages 选择一个主题。找到你的仓库 xxx.github.io 点击settings标签页，在GitHub Pages下点击 Choose a theme选择一个博客样式主题 
+**3.** 为你的Github Pages 选择一个主题。找到你的仓库 xxx.github.io 点击settings标签页，在GitHub Pages下点击 Choose a theme选择一个博客样式主题 
 
 <div style="display:flex;align-items:center;justify-content:center;">
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_002.png" width="750" height="500" />
@@ -34,17 +34,26 @@ categories: [jekyll]
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_003.png" width="950" height="500" />
 </div>
 
-4. 点击 Select theme后，GitHub Pages就会自动帮你生成博客网站，然后在跳转的界面点击Commit changes ，就可以访问网站 https://xxx.github.io
+**4.** 点击 Select theme后，GitHub Pages就会自动帮你生成博客网站，然后在跳转的界面点击Commit changes ，就可以访问网站 https://xxx.github.io
 
 ### 使用Jekyll在本地生成博客
 
-1. Jekyll 是基于 Ruby 的静态网页生成系统，因此我们首先得[安装 Ruby+Dev 环境](https://jekyllrb.com/docs/installation/)，在本篇文章里我们[使用Win10进行安装Ruby+Dev](https://jekyllrb.com/docs/installation/windows/)
-2. [下载RubyInstaller](https://rubyinstaller.org/downloads/)
+**1.** Jekyll 是基于 Ruby 的静态网页生成系统，因此我们首先得[安装 Ruby+Dev 环境](https://jekyllrb.com/docs/installation/)，在本篇文章里我们[使用Win10进行安装Ruby+Dev](https://jekyllrb.com/docs/installation/windows/)
+**2.** [下载RubyInstaller](https://rubyinstaller.org/downloads/)
 
 <div style="display:flex;align-items:center;justify-content:center;">
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_004.png" width="700" height="300" />
 </div>
-
+3. 安装RubyInstaller		
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_005.png" width="500" height="400" />
+</div>
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_006.png" width="500" height="400" />
+</div>
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_007.png" width="500" height="400" />
+</div>
 
 3 Simple steps to setup Jekyll Categories and Tags
 
