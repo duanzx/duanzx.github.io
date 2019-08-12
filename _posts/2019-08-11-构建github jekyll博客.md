@@ -19,6 +19,7 @@ categories: [jekyll]
 ### 构建你的GitHub Pages
 
 **1.** 首先你需要到GitHub注册账户，注册成功后，登录GitHub网站。
+
 **2.** 创建你的Github仓库，并将仓库名称命名为 xxx.github.io , xxx指的是你的github用户名
 
 <div style="display:flex;align-items:center;justify-content:center;">
@@ -39,12 +40,13 @@ categories: [jekyll]
 ### 使用Jekyll在本地生成博客
 
 **1.** Jekyll 是基于 Ruby 的静态网页生成系统，因此我们首先得[安装 Ruby+Dev 环境](https://jekyllrb.com/docs/installation/)，在本篇文章里我们[使用Win10进行安装Ruby+Dev](https://jekyllrb.com/docs/installation/windows/)
+
 **2.** [下载RubyInstaller](https://rubyinstaller.org/downloads/)
 
 <div style="display:flex;align-items:center;justify-content:center;">
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_004.png" width="700" height="300" />
 </div>
-3. 安装RubyInstaller		
+**3.** 安装RubyInstaller		
 <div style="display:flex;align-items:center;justify-content:center;">
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_005.png" width="500" height="400" />
 </div>
@@ -54,6 +56,17 @@ categories: [jekyll]
 <div style="display:flex;align-items:center;justify-content:center;">
     <img src="/img/2019-08-11-构建github jekyll博客/githubpages_007.png" width="500" height="400" />
 </div>
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_008.png" width="500" height="400" />
+</div>
+
+* 在控制台输入 1,2,3 然后敲下Enter
+
+<div style="display:flex;align-items:center;justify-content:center;">
+    <img src="/img/2019-08-11-构建github jekyll博客/githubpages_009.png" width="500" height="400" />
+</div>
+
+* 安装组件的时间比较长~，需要耐心等待
 
 3 Simple steps to setup Jekyll Categories and Tags
 
