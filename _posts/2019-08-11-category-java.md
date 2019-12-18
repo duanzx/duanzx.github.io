@@ -6,4 +6,4 @@ categories: [java]
 java blog title
 22
 
-{% link html/2019-12-18-设计模式笔记.html %}
+{% link _posts/2019-10-19-JEP193VarHandles.md %}
