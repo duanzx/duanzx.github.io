@@ -13,8 +13,6 @@ java blog title11
   function scrollPlus(){
   	var h = document.getElementById("mainContentDiv").style.height;
   	var newh = parseInt(h)+1000;
-      document.getElementById("mainContentDiv").style.height = newh+"px";
+     document.getElementById("mainContentDiv").style.height = newh+"px";
   } 
- 
-} 
 </script>
