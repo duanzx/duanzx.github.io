@@ -8,7 +8,7 @@ java blog title
 <div id="mainContentDiv" onscroll="scrollPlus()" onmouseover="scrollPlus()" style="width:1000px;height:1000px;" ></div>
 
 <script type="text/javascript"> 
- document.getElementById("mainContentDiv").innerHTML = '<object type="text/html" style="width:100%;height:100%" data="../html/2019-12-18-设计模式笔记.html"></object>';
+ document.getElementById("mainContentDiv").innerHTML = '<object type="text/html" style="width:100%;height:100%" data="/html/2019-12-18-设计模式笔记.html"></object>';
 
   function scrollPlus(){
   	var h = document.getElementById("mainContentDiv").style.height;
