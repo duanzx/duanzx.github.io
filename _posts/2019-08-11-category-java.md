@@ -3,7 +3,7 @@ layout: post
 title: java blog title
 categories: [java]
 ---
-java blog title
+java blog title1
 
 <div id="mainContentDiv" onscroll="scrollPlus()" onmouseover="scrollPlus()" style="width:1000px;height:1000px;" ></div>
 
