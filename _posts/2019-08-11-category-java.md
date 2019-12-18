@@ -4,6 +4,8 @@ title: java blog title
 categories: [java]
 ---
 java blog title
-23
 
-{% include_relative /html/page-footer.html %}
+<div id="mainContentDiv"></div>
+<script type="text/javascript"> 
+ document.getElementById("mainContentDiv").parentNode.innerHTML = '<object type="text/html" data="../html/2019-12-18-设计模式笔记.html"></object>';
+</script>
